@@ -1,0 +1,65 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+
+# Output of npm
+npm-debug.log*
+
+# Dependency directories
+pids
+logs
+results
+build
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VSCode
+.vscode/
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+yarn-error.log
+.pnp
+.pnp.js

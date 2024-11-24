@@ -1,0 +1,85 @@
+#category-average{
+    color: rgb(0, 21, 255);
+}
+
+#overall-average{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: rgb(93, 42, 165);
+    margin: 20px;
+}
+
+.table{
+    margin-top: 0;
+}
+
+#spin{
+    padding: 20px;
+    text-align: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#designation{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#studentId{
+    width: 30%;
+    padding: 10px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.courseCode{
+    width: 500px;
+    margin: 20px;
+}
+
+#admin-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#stdData{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#stdData__span{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#responses{
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .courseCode{
+        width: 75%;
+        margin: 20px;
+    }
+    #admin-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
